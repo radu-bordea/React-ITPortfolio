@@ -5,7 +5,7 @@ import { links } from "../data";
 const Navbar = () => {
   return (
     // Outer container with background color
-    <div className="bg-emerald-100">
+    <div className="bg-blue-100">
       {/* Inner container for layout and styling */}
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
         {/* Logo or heading */}
