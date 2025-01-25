@@ -1,5 +1,8 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import model from '../src/assets/model.png'
+import game from '../src/assets/game.png'
+import itportfolio from "../src/assets/itportfolio.png";
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -32,26 +35,26 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: model,
+    url: "https://radu-3dportfolio.netlify.app/",
+    github: "https://github.com/radu-bordea/REACT-3DPortfolio.git",
+    title: "ModelFit Portfolio",
+    text: "Fitness and modeling portfolio built with React and Styled Components, showcasing style, health, and elegance.",
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: game,
+    url: "https://react-game-hub-rho.vercel.app/",
+    github: "https://github.com/radu-bordea/React-GameHub.git",
+    title: "Game Hub",
+    text: "Game project built with React, Chakra UI, and RWAG API, offering dynamic gameplay and interactive features.",
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: itportfolio,
+    url: "https://react-projects.netlify.app/",
+    github: "https://github.com/radu-bordea/React-ITPortfolio.git",
+    title: "My It Portfolio",
+    text: "A collection of diverse projects showcasing my skills, creativity, and problem-solving abilities across various fields.",
   },
 ];
