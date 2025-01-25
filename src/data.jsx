@@ -52,7 +52,7 @@ export const projects = [
   {
     id: nanoid(),
     img: itportfolio,
-    url: "https://react-projects.netlify.app/",
+    url: "https://my-it-portfolio.netlify.app/",
     github: "https://github.com/radu-bordea/React-ITPortfolio.git",
     title: "My It Portfolio",
     text: "A collection of diverse projects showcasing my skills, creativity, and problem-solving abilities across various fields.",
