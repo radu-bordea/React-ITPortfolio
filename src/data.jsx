@@ -43,14 +43,6 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: game,
-    url: "https://react-game-hub-rho.vercel.app/",
-    github: "https://github.com/radu-bordea/React-GameHub.git",
-    title: "Game Hub",
-    text: "Game project built with React, Chakra UI, and RWAG API, offering dynamic gameplay and interactive features.",
-  },
-  {
-    id: nanoid(),
     img: itportfolio,
     url: "https://my-it-portfolio.netlify.app/",
     github: "https://github.com/radu-bordea/React-ITPortfolio.git",
