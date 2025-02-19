@@ -3,6 +3,7 @@ import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import model from '../src/assets/model.png'
 import game from '../src/assets/game.png'
 import itportfolio from "../src/assets/itportfolio.png";
+import productsapp from '../src/assets/products-app.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -48,5 +49,13 @@ export const projects = [
     github: "https://github.com/radu-bordea/React-ITPortfolio.git",
     title: "My It Portfolio",
     text: "A collection of diverse projects showcasing my skills, creativity, and problem-solving abilities across various fields.",
+  },
+  {
+    id: nanoid(),
+    img: productsapp,
+    url: "https://my-it-portfolio.netlify.app/",
+    github: "https://github.com/radu-bordea/MERN-ProductsApp.git",
+    title: "MERN-ProductsApp",
+    text: "MERN-ProductsApp is a full-stack CRUD application using MongoDB, Express.js, React, and Node.js, with Zustand for global state management, enabling seamless product management with a modern UI and RESTful API. 🚀",
   },
 ];
