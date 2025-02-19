@@ -55,6 +55,6 @@ export const projects = [
     url: "https://mern-productsapp.onrender.com/",
     github: "https://github.com/radu-bordea/MERN-ProductsApp.git",
     title: "MERN-ProductsApp",
-    text: "MERN-ProductsApp is a full-stack CRUD application using MongoDB, Express.js, React, and Node.js, with Zustand for global state management, enabling seamless product management with a modern UI and RESTful API. 🚀",
+    text: "MERN-ProductsApp is a full-stack CRUD application using MongoDB, Express.js, React, and Node.js, with Zustand for global state management, enabling seamless product management with a Chackra UI design and RESTful API. 🚀",
   },
 ];
