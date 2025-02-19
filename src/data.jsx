@@ -1,7 +1,6 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import model from '../src/assets/model.png'
-import game from '../src/assets/game.png'
 import itportfolio from "../src/assets/itportfolio.png";
 import productsapp from '../src/assets/products-app.png'
 
@@ -53,7 +52,7 @@ export const projects = [
   {
     id: nanoid(),
     img: productsapp,
-    url: "https://my-it-portfolio.netlify.app/",
+    url: "https://mern-productsapp.onrender.com/",
     github: "https://github.com/radu-bordea/MERN-ProductsApp.git",
     title: "MERN-ProductsApp",
     text: "MERN-ProductsApp is a full-stack CRUD application using MongoDB, Express.js, React, and Node.js, with Zustand for global state management, enabling seamless product management with a modern UI and RESTful API. 🚀",
