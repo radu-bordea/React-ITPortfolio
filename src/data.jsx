@@ -3,6 +3,7 @@ import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import model from '../src/assets/model.png'
 import itportfolio from "../src/assets/itportfolio.png";
 import productsapp from '../src/assets/products-app.png'
+import reactfinance from '../src/assets/reactfinance.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -55,6 +56,14 @@ export const projects = [
     url: "https://mern-productsapp.onrender.com/",
     github: "https://github.com/radu-bordea/MERN-ProductsApp.git",
     title: "MERN-ProductsApp",
+    text: "MERN-ProductsApp is a full-stack CRUD application using MongoDB, Express.js, React, and Node.js, with Zustand for global state management, enabling seamless product management with a Chackra UI design and RESTful API. 🚀",
+  },
+  {
+    id: nanoid(),
+    img: reactfinance,
+    url: "https://react-finance-vmw8.onrender.com/",
+    github: "https://github.com/radu-bordea/React-Finance.git",
+    title: "React-Finance",
     text: "MERN-ProductsApp is a full-stack CRUD application using MongoDB, Express.js, React, and Node.js, with Zustand for global state management, enabling seamless product management with a Chackra UI design and RESTful API. 🚀",
   },
 ];
