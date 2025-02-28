@@ -1,15 +1,15 @@
-import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
-import model from '../src/assets/model.png'
+import { nanoid } from "nanoid";
+import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import model from "../src/assets/model.png";
 import itportfolio from "../src/assets/itportfolio.png";
-import productsapp from '../src/assets/products-app.png'
-import reactfinance from '../src/assets/reactfinance.png'
+import productsapp from "../src/assets/products-app.png";
+import reactfinance from "../src/assets/reactfinance.png";
 
 export const links = [
-  { id: nanoid(), href: '#home', text: 'home' },
-  { id: nanoid(), href: '#skills', text: 'skills' },
-  { id: nanoid(), href: '#about', text: 'about' },
-  { id: nanoid(), href: '#projects', text: 'projects' },
+  { id: nanoid(), href: "#home", text: "home" },
+  { id: nanoid(), href: "#skills", text: "skills" },
+  { id: nanoid(), href: "#about", text: "about" },
+  { id: nanoid(), href: "#projects", text: "projects" },
 ];
 
 export const skills = [
@@ -64,6 +64,6 @@ export const projects = [
     url: "https://react-finance-vmw8.onrender.com/",
     github: "https://github.com/radu-bordea/React-Finance.git",
     title: "React-Finance",
-    text: "MERN-ProductsApp is a full-stack CRUD application using MongoDB, Express.js, React, and Node.js, with Zustand for global state management, enabling seamless product management with a Chackra UI design and RESTful API. 🚀",
+    text: "MERN React Finance app built with Node.js, Express, and Material UI, featuring interactive dashboard charts and regression-based predictions for revenue, expenses, and profit trends, analyzed daily or yearly for better financial insights. 🚀",
   },
 ];
