@@ -63,7 +63,7 @@ export const projects = [
     img: reactfinance,
     url: "https://react-finance-vmw8.onrender.com/",
     github: "https://github.com/radu-bordea/React-Finance.git",
-    title: "React-Finance",
+    title: "MERN-React-Finance",
     text: "MERN React Finance app built with Node.js, Express, and Material UI, featuring interactive dashboard charts and regression-based predictions for revenue, expenses, and profit trends, analyzed daily or yearly for better financial insights. 🚀",
   },
 ];
