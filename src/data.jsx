@@ -1,6 +1,7 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import model from "../src/assets/model.png";
+import beehives from "../src/assets/beehives.png";
 import itportfolio from "../src/assets/itportfolio.png";
 import productsapp from "../src/assets/products-app.png";
 import reactfinance from "../src/assets/reactfinance.png";
@@ -34,6 +35,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: beehives,
+    url: "https://nex-tjs-bee-hives-project.vercel.app/scales/RXVDD6/",
+    github: "https://github.com/radu-bordea/NEXTjs-BeeHives-Project.git",
+    title: "Beehives Project",
+    text: "The Beehives Project is built with Next.js and MongoDB, fetching beehive data from Åland Islands to display detailed insights and charts. It also integrates NextAuth for authentication and includes admin functionality for management..",
+  },
   {
     id: nanoid(),
     img: model,
