@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import model from "../src/assets/model.png";
-import beehives from "../src/assets/beehives.png";
+import property-pulse from '../src/assets/property-pulse.png';
 import itportfolio from "../src/assets/itportfolio.png";
 import productsapp from "../src/assets/products-app.png";
 import reactfinance from "../src/assets/reactfinance.png";
@@ -35,6 +35,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: property-pulse,
+    url: "https://nex-tjs-property-pulse.vercel.app/",
+    github: "https://github.com/radu-bordea/NEXTjs-PropertyPulse",
+    title: "Property Pulse App",
+    text: "The Property Rental App is a full-stack web application designed to streamline the process of listing, discovering, and renting properties. Built using Next.js for the frontend and backend, and MongoDB as the database, this app enables users to perform all core functionalities of a modern rental platform with a smooth and responsive interface."
+  },
   {
     id: nanoid(),
     img: beehives,
