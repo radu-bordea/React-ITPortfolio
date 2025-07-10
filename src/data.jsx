@@ -47,7 +47,7 @@ export const projects = [
   {
     id: nanoid(),
     img: beehives,
-    url: "https://nex-tjs-bee-hives-project.vercel.app/scales/RXVDD6/",
+    url: "https://bidata.site/",
     github: "https://github.com/radu-bordea/NEXTjs-BeeHives-Project.git",
     title: "Beehives Project",
     text: "The Beehives Project is built with Next.js and MongoDB, fetching beehive data from Åland Islands to display detailed insights and charts. It also integrates NextAuth for authentication and includes admin functionality for management..",
