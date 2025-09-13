@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section className="py-20 align-element" id="projects">
       {/* Section title for the "Projects" section */}
-      <SectionTitle text="web creations" />
+      <SectionTitle text="NextJs fullstack and MERN websites/pages" />
 
       {/* Grid layout for displaying project cards */}
       <div className="py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">

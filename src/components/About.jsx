@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle"; // Importing the SectionTitle compone
 // A functional component that renders the "About" section of the app
 const About = () => {
   return (
-    <div className="bg-white py-20" id="about">
+    <div className="py-20 text-neutral-600" id="about">
       {/* Grid layout for the "About" section with an image and text */}
       <div className="align-element grid md:grid-cols-2 items-center gap-16">
         {/* Display the about section image */}
@@ -15,7 +15,7 @@ const About = () => {
           <SectionTitle text="code and coffee" />{" "}
           {/* Section title for "About" */}
           {/* Descriptive text for the "About" section */}
-          <p className="text-slate-600 leading-loose">
+          <p className="text-neutral-600 leading-loose">
             I am a 2024 graduate in Information Technology from Åland University
             of Applied Science, Finland. With a deep passion for coding, I
             specialize in full-stack development, primarily working with the

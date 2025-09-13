@@ -5,7 +5,7 @@ import { links } from "../data";
 const Navbar = () => {
   return (
     // Outer container with background color
-    <div className="bg-blue-100">
+    <div className="bg-neutral-900 text-neutral-300">
       {/* Inner container for layout and styling */}
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
         {/* Logo or heading */}
@@ -20,6 +20,7 @@ const Navbar = () => {
             return (
               // Anchor tag for each link
               <a
+                key={id}
                 id={id}
                 href={href}
                 className="capitalize text-lg tracking-wide hover:text-emerald-600 duration-300"

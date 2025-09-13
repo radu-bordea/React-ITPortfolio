@@ -7,12 +7,12 @@ import Projects from "./components/Projects";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-neutral-200 ">
       <Navbar />
       <Hero />
       <Skills />
-      <About/>
-      <Projects/>
+      <About />
+      <Projects />
     </div>
   );
 };
