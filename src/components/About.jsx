@@ -12,21 +12,24 @@ const About = () => {
 
         {/* Article containing the section title and description */}
         <article>
-          <SectionTitle text="code and coffee" />{" "}
+          <SectionTitle text="Passionate Modern Web Developer" />{" "}
           {/* Section title for "About" */}
           {/* Descriptive text for the "About" section */}
           <p className="text-neutral-600 leading-loose">
-            I am a 2024 graduate in Information Technology from Åland University
-            of Applied Science, Finland. With a deep passion for coding, I
-            specialize in full-stack development, primarily working with the
-            MERN stack—MongoDB, Express.js, React, and Node.js. In addition to
-            my expertise in the MERN stack, I am proficient in technologies such
-            as HTML, CSS, Bootstrap, TailwindCSS, JavaScript, Next.js and GitHub. I
-            thrive in creating seamless user experiences and efficient, scalable
-            solutions. I am fluent in English, Swedish, and Romanian, which
-            allows me to communicate effectively in multicultural and diverse
-            teams. Driven by a love for problem-solving and continuous learning,
-            I am eager to contribute to innovative projects that make an impact.
+            I’m a freelance Next.js full-stack developer with a passion for
+            building modern, scalable, and user-friendly web applications. My
+            toolkit includes <strong>Next.js</strong>,{" "}
+            <strong>TypeScript</strong>, <strong>TailwindCSS</strong>,{" "}
+            <strong>PrismaORM</strong>, <strong>Neon PostgreSQL</strong>, and{" "}
+            <strong>Clerk</strong> — technologies I use daily to craft fast and
+            reliable solutions. After graduating in IT from Åland University of
+            Applied Sciences in Finland, I’ve created projects for both clients
+            and myself, focusing on clean design and strong functionality. At
+            the moment, I can deliver landing pages, company websites, and
+            custom trackers, along with secure login systems and full-stack
+            development. While booking and payment systems are not part of my
+            stack yet, I ensure every project is responsive, professional, and
+            built to grow with your needs.
           </p>
         </article>
       </div>
