@@ -16,6 +16,9 @@ import itportfolio from "../src/assets/itportfolio.png";
 import productsapp from "../src/assets/products-app.png";
 import reactfinance from "../src/assets/reactfinance.png";
 import panoramaX from "../src/assets/panoramax.png";
+import cryptochainz from "../src/assets/cryptochainz.png";
+import expensetracker from "../src/assets/expensetracker.png";
+
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -92,22 +95,37 @@ export const projects = [
     title: "Panorama-X Rental App",
     text: "A modern rental property landing page built with Next.js, TypeScript, TailwindCSS and Sanity CMS, enabling seamless listings info, galerry, and responsive user experience.",
   },
-
-  {
-    id: nanoid(),
-    img: property,
-    url: "https://nex-tjs-property-pulse.vercel.app/",
-    github: "https://github.com/radu-bordea/NEXTjs-PropertyPulse",
-    title: "Property Pulse App",
-    text: "Property Rental App website designed to streamline listing, discovering, and renting properties. Built with Next.js server actions, Javascript and MongoDB as the database, it lets users perform core functions of a modern rental platform with a smooth, responsive interface.",
-  },
   {
     id: nanoid(),
     img: beehives,
     url: "https://bidata.site/",
     github: "https://github.com/radu-bordea/NEXTjs-BeeHives-Project.git",
     title: "Beehives Project",
-    text: "The Beehives Project is built with Next.js and MongoDB, fetching beehive data from Åland Islands to display detailed insights and charts. It also integrates NextAuth for authentication and includes admin functionality for management.",
+    text: "The Beehives Project is built with Next.js and MongoDB, fetching beehive data from Åland Islands to display detailed insights and charts. NextAuth for authentication and includes admin functionality for management.",
+  },
+  {
+    id: nanoid(),
+    img: property,
+    url: "https://nex-tjs-property-pulse.vercel.app/",
+    github: "https://github.com/radu-bordea/NEXTjs-PropertyPulse",
+    title: "Property Pulse App",
+    text: "Property Rental App website designed to streamline listing, discovering, and renting properties. Built with Next.js server actions, Javascript and MongoDB as the database a smooth, responsive interface.",
+  },
+  {
+    id: nanoid(),
+    img: cryptochainz,
+    url: "https://nex-tjs-crypto-chain-z.vercel.app/",
+    github: "https://github.com/radu-bordea/NEXTjs-CryptoChainZ.git",
+    title: "CryptoChainZ",
+    text: "Website fetching cripto data from coingecko api is built with Next.js, Tailwindcss, Javascript, implementing sorting to display detailed insights and charts.",
+  },
+  {
+    id: nanoid(),
+    img: expensetracker,
+    url: "https://nextjs-expense-tracker-seven.vercel.app/",
+    github: "https://github.com/radu-bordea/Nextjs-ExpenseTracker.git",
+    title: "ExpenseTracker",
+    text: "Website tracking expenses, build with NextJs, Prisma, Neon, Clerk where every user has its own data",
   },
   {
     id: nanoid(),
