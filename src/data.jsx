@@ -18,6 +18,7 @@ import reactfinance from "../src/assets/reactfinance.png";
 import panoramaX from "../src/assets/panoramax.png";
 import cryptochainz from "../src/assets/cryptochainz.png";
 import expensetracker from "../src/assets/expensetracker.png";
+import seasafety from '../src/assets/seasafety.png'
 
 
 export const links = [
@@ -110,6 +111,14 @@ export const projects = [
     github: "https://github.com/radu-bordea/NEXTjs-PropertyPulse",
     title: "Property Pulse App",
     text: "Property Rental App website designed to streamline listing, discovering, and renting properties. Built with Next.js server actions, Javascript and MongoDB as the database a smooth, responsive interface.",
+  },
+  {
+    id: nanoid(),
+    img: seasafety,
+    url: "https://nex-tjs-sea-safety.vercel.app/tutorials",
+    github: "https://github.com/radu-bordea/NEXTjs-SeaSafety.git",
+    title: "SeaSafety",
+    text: "SeaSafety website built with Next.js, Prisma, Neon; users access training materials and embedded YouTube videos.",
   },
   {
     id: nanoid(),
