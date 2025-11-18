@@ -19,6 +19,7 @@ import panoramaX from "../src/assets/panoramax.png";
 import cryptochainz from "../src/assets/cryptochainz.png";
 import expensetracker from "../src/assets/expensetracker.png";
 import seasafety from '../src/assets/seasafety.png'
+import cleaning from '../src/assets/cleaning.png'
 
 
 export const links = [
@@ -103,6 +104,14 @@ export const projects = [
     github: "https://github.com/radu-bordea/NEXTjs-BeeHives-Project.git",
     title: "Beehives Project",
     text: "The Beehives Project is built with Next.js and MongoDB, fetching beehive data from Åland Islands to display detailed insights and charts. NextAuth for authentication and includes admin functionality for management.",
+  },
+  {
+    id: nanoid(),
+    img: cleaning,
+    url: "https://cleaning-company-ro.netlify.app/",
+    github: "https://github.com/radu-bordea/NEXTjs-CleaningCompany.git",
+    title: "Servicii Curatenie",
+    text: "A Landing Page for a new cleaning company built with Next.js, TailwindCSS, galerry, and responsive user experience."
   },
   {
     id: nanoid(),
