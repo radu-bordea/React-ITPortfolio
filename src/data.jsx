@@ -108,7 +108,7 @@ export const projects = [
   {
     id: nanoid(),
     img: cleaning,
-    url: "https://cleaning-company-ro.netlify.app/",
+    url: "https://nex-tjs-cleaning-company.vercel.app/",
     github: "https://github.com/radu-bordea/NEXTjs-CleaningCompany.git",
     title: "Servicii Curatenie",
     text: "A Landing Page for a new cleaning company built with Next.js, TailwindCSS, galerry, and responsive user experience."
